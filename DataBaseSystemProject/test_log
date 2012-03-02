@@ -1,0 +1,1 @@
+SELECT DISTINCT * FROM course WHERE grade = "A" ORDER BY course.grade

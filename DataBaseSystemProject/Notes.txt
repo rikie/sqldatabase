@@ -1,0 +1,4 @@
+
+read smaller relation to M1 to M-1 buffers
+read R to M0
+for each tuple in M0 join with each tuple of R

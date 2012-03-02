@@ -1,0 +1,5 @@
+tiny_sql.compile: Commands for compiling all the files. The commands are tested on sun.cse.tamu.edu
+tiny_sql.l: The lex file
+tiny_sql.y: The yacc file
+
+Please put these three files in the same folder of StorageManager

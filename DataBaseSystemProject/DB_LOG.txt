@@ -1,0 +1,4967 @@
+Parsing <Statement>
+Encounter Keyword: CREATE
+Parsing <CreateTableStatement>
+Encounter Keyword: TABLE
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeTypeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Parsing <DataType>
+Encounter DataType: INT
+Encounter Syntax: ,
+Parsing <AttributeTypeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Parsing <DataType>
+Encounter DataType: INT
+Encounter Syntax: ,
+Parsing <AttributeTypeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Parsing <DataType>
+Encounter DataType: INT
+Encounter Syntax: ,
+Parsing <AttributeTypeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Parsing <DataType>
+Encounter DataType: INT
+Encounter Syntax: ,
+Parsing <AttributeTypeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Parsing <DataType>
+Encounter DataType: STR20
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 1
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: A
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 2
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 20
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 20
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: B
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 3
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 30
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 30
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 98
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: C
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 4
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 40
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 40
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 97
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: D
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 5
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 50
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 50
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: E
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 6
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 60
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 60
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 95
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: A
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 7
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 70
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 70
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 94
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: B
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 8
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 80
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 93
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: C
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 9
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 90
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 90
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 92
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: D
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 10
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 91
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: A
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 11
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 10
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: A
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 12
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 30
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 20
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 99
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: B
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 13
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 40
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 30
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 98
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: C
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 14
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 40
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 97
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: D
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 15
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 60
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 96
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: E
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 16
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 70
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 60
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 95
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: A
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 17
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 80
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 70
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 94
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: B
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 18
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 90
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 80
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 93
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: C
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 19
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 90
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 92
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: D
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 20
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 20
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 91
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: E
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 21
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: A
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 22
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 40
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 20
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 99
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: B
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 23
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 50
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 30
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 98
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: C
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 24
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 60
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 40
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 97
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: D
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 25
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 70
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 50
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 96
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: E
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 26
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 80
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 60
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 95
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: A
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 27
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 90
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 70
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 94
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: B
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 28
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 80
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 93
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: C
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 29
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 20
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 90
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 92
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: D
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 30
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 91
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: A
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 31
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: A
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 32
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 50
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 20
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 99
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: B
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 33
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 60
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 30
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 98
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: C
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 34
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 70
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 40
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 97
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: D
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 35
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 80
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 50
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 96
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: E
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 36
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 90
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 60
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 95
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: A
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 37
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 10
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 70
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 94
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: B
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 38
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 20
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 80
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 93
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: C
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 39
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 30
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 90
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 92
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: D
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 40
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 40
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 91
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: E
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 41
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 50
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: A
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 42
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 60
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 20
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 99
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: B
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 43
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 70
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 30
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 98
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: C
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 44
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 80
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 40
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 97
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: D
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 45
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 90
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 50
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 96
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: E
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 46
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 60
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: A
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 47
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 20
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 70
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 80
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: B
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 48
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: C
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 49
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 40
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: D
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 50
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: E
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 51
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: E
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 52
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: E
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 53
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: E
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 54
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 80
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 20
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: C
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 55
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 10
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: C
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 56
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: C
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 47
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 20
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 70
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 80
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: B
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 48
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: C
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 49
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 40
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: D
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 50
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: E
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 51
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: E
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 52
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: E
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 53
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: E
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: homework
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: project
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 53
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 20
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: E
+Encounter Syntax: )
+Encounter Keyword: CREATE
+Parsing <CreateTableStatement>
+Encounter Keyword: TABLE
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course2
+Encounter Syntax: (
+Parsing <AttributeTypeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Parsing <DataType>
+Encounter DataType: INT
+Encounter Syntax: ,
+Parsing <AttributeTypeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Parsing <DataType>
+Encounter DataType: INT
+Encounter Syntax: ,
+Parsing <AttributeTypeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Parsing <DataType>
+Encounter DataType: STR20
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course2
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 1
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: A
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course2
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 2
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 90
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: B
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course2
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 3
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: C
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course2
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 4
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 80
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: D
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course2
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 5
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 70
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: E
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course2
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 6
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 40
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: A
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course2
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 7
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 50
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: B
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course2
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 8
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: C
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course2
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 9
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: E
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course2
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 10
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: A
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course2
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 11
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: B
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course2
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 12
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 90
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: C
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course2
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 13
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 60
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: A
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course2
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 14
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 50
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: B
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course2
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 15
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: A
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course2
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 16
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 60
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: A
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course2
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 17
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 50
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: B
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course2
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 18
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 50
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: B
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course2
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 19
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: A
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course2
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 20
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: A
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course2
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 21
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: A
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course2
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 22
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: A
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course2
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 23
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 40
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: D
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course2
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 24
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 80
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: B
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course2
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 25
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 10
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: D
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course2
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 101
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 10
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: F
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course2
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 102
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 20
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: E
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course2
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 103
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 30
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: E
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course2
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 104
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 40
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: E
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course2
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 105
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 50
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: B
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course2
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 106
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 60
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: C
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course2
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 107
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 70
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: C
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course2
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 108
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 80
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: D
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course2
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 109
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 90
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: A
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course2
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 110
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 90
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: A
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course2
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 111
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: A
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course2
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 112
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: A
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course2
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 113
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 30
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: E
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course2
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 114
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 30
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: E
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course2
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 115
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: A
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course2
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 116
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: A
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course2
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 117
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 80
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: B
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course2
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 118
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: B
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course2
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 119
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: A
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course2
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 120
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 60
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: C
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course2
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 121
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: A
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course2
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 122
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: A
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course2
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 123
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 90
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: B
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course2
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 124
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 100
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: A
+Encounter Syntax: )
+Encounter Keyword: INSERT
+Parsing <InsertStatement>
+Encounter Keyword: INTO
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course2
+Encounter Syntax: (
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: sid
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: exam
+Encounter Syntax: ,
+Parsing <AttributeList>
+Parsing <AttributeName>
+Encounter IDENTIFIER: grade
+Encounter Syntax: )
+Parsing <InsertTuples>
+Encounter Keyword: VALUES
+Encounter Syntax: (
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 125
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter INTEGER: 70
+Encounter Syntax: ,
+Parsing <ValueList>
+Parsing <Value>
+Encounter LITERAL: B
+Encounter Syntax: )
+Encounter Keyword: SELECT
+Parsing <SelectStatement>
+Encounter Keyword: DISTINCT
+Parsing <SelectList>
+Parsing <ParseSelectSublist>
+Parsing <ColumnName>
+Encounter Table Name IDENTIFIER: 
+Encounter Column Name: course.grade
+course.grade
+Encounter Syntax: ,
+Parsing <ParseSelectSublist>
+Parsing <ColumnName>
+Encounter Table Name IDENTIFIER: 
+Encounter Column Name: course2.grade
+course2.grade
+Encounter Syntax: ,
+Parsing <ParseSelectSublist>
+Parsing <ColumnName>
+Encounter Table Name IDENTIFIER: 
+Encounter Column Name: course.exam
+course.exam
+Encounter Keyword: FROM
+Parsing <TableList>
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course
+Encounter Syntax: ,
+Parsing <TableList>
+Parsing <TableName>
+Encounter Table Name IDENTIFIER: course2
+Encounter Keyword: WHERE
+Parsing <SearchCondition>
+Parsing <BooleanTerm>
+Parsing <BooleanFactor>
+Parsing <BooleanPrimary>
+Parsing <ComparisionPredicate>
+Parsing <Expression>
+Parsing <Term>
+Parsing<Factor>
+Parsing <ColumnName>
+Encounter Table Name IDENTIFIER: 
+Encounter Column Name: course.sid
+course.sid
+Encounter COMPOP Syntax: =
+Parsing <Expression>
+Parsing <Term>
+Parsing<Factor>
+Parsing <ColumnName>
+Encounter Table Name IDENTIFIER: 
+Encounter Column Name: course2.sid
+course2.sid
+Encounter Keyword: AND
+Parsing <BooleanTerm>
+Parsing <BooleanFactor>
+Parsing <BooleanPrimary>
+Encounter Syntax: [
+Parsing <SearchCondition>
+Parsing <BooleanTerm>
+Parsing <BooleanFactor>
+Parsing <BooleanPrimary>
+Parsing <ComparisionPredicate>
+Parsing <Expression>
+Parsing <Term>
+Parsing<Factor>
+Parsing <ColumnName>
+Encounter Table Name IDENTIFIER: 
+Encounter Column Name: course.exam
+course.exam
+Encounter COMPOP Syntax: >
+Parsing <Expression>
+Parsing <Term>
+Parsing<Factor>
+Parsing <ColumnName>
+Encounter Table Name IDENTIFIER: 
+Encounter Column Name: course2.exam
+course2.exam
+Encounter Keyword: OR
+Parsing <SearchCondition>
+Parsing <BooleanTerm>
+Parsing <BooleanFactor>
+Parsing <BooleanPrimary>
+Parsing <ComparisionPredicate>
+Parsing <Expression>
+Parsing <Term>
+Parsing<Factor>
+Parsing <ColumnName>
+Encounter Table Name IDENTIFIER: 
+Encounter Column Name: course.grade
+course.grade
+Encounter COMPOP Syntax: =
+Parsing <Expression>
+Parsing <Term>
+Parsing<Factor>
+Encounter LITERAL: A
+Literal: A
+Encounter Keyword: AND
+Parsing <BooleanTerm>
+Parsing <BooleanFactor>
+Parsing <BooleanPrimary>
+Parsing <ComparisionPredicate>
+Parsing <Expression>
+Parsing <Term>
+Parsing<Factor>
+Parsing <ColumnName>
+Encounter Table Name IDENTIFIER: 
+Encounter Column Name: course2.grade
+course2.grade
+Encounter COMPOP Syntax: =
+Parsing <Expression>
+Parsing <Term>
+Parsing<Factor>
+Encounter LITERAL: A
+Literal: A
+Encounter Syntax: ]
+Encounter Keyword: ORDER
+Encounter Keyword: BY
+Parsing <ColumnName>
+Encounter Table Name IDENTIFIER: 
+Encounter Column Name: course.exam
+course.exam
+Encounter EOF

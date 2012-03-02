@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7A308625-2201-4764-B8F1-BD20A53BB395}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>DataBaseSystemProject</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Block.h" />
+    <ClInclude Include="ComparisonPredicate.h" />
+    <ClInclude Include="Config.h" />
+    <ClInclude Include="configDB.h" />
+    <ClInclude Include="DBParser.h" />
+    <ClInclude Include="Disk.h" />
+    <ClInclude Include="Expression.h" />
+    <ClInclude Include="Field.h" />
+    <ClInclude Include="FileManager.h" />
+    <ClInclude Include="FromQueryPlan.h" />
+    <ClInclude Include="Global.h" />
+    <ClInclude Include="Keywords.h" />
+    <ClInclude Include="LexAnalyzer.h" />
+    <ClInclude Include="LogicalQueryPlan.h" />
+    <ClInclude Include="LogicalQueryPlanGenerator.h" />
+    <ClInclude Include="LogicalQueryPlanOptimizer.h" />
+    <ClInclude Include="MainMemory.h" />
+    <ClInclude Include="PhysicalOperator.h" />
+    <ClInclude Include="PUtility.h" />
+    <ClInclude Include="Relation.h" />
+    <ClInclude Include="ReturnRelation.h" />
+    <ClInclude Include="Schema.h" />
+    <ClInclude Include="SchemaManager.h" />
+    <ClInclude Include="SearchCondition.h" />
+    <ClInclude Include="Operation.h" />
+    <ClInclude Include="SqlWorker.h" />
+    <ClInclude Include="Token.h" />
+    <ClInclude Include="TokenType.h" />
+    <ClInclude Include="Tuple.h" />
+    <ClInclude Include="Untility.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ComparisonPredicate.cpp" />
+    <ClCompile Include="DBManagerStart.cpp" />
+    <ClCompile Include="DBParser.cpp" />
+    <ClCompile Include="Expression.cpp" />
+    <ClCompile Include="FileManager.cpp" />
+    <ClCompile Include="FromQueryPlan.cpp" />
+    <ClCompile Include="LexAnalyzer.cpp" />
+    <ClCompile Include="LogicalQueryPlan.cpp" />
+    <ClCompile Include="LogicalQueryPlanGenerator.cpp" />
+    <ClCompile Include="LogicalQueryPlanOptimizer.cpp" />
+    <ClCompile Include="PhysicalOperator.cpp" />
+    <ClCompile Include="PUtility.cpp" />
+    <ClCompile Include="SearchCondition.cpp" />
+    <ClCompile Include="Operation.cpp" />
+    <ClCompile Include="SqlWorker.cpp" />
+    <ClCompile Include="StorageManager.cpp" />
+    <ClCompile Include="TestStorageManager.cpp" />
+    <ClCompile Include="Token.cpp" />
+    <ClCompile Include="Utility.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="1000TupleInsert.txt" />
+    <None Include="DB_LOG.txt" />
+    <None Include="Notes.txt" />
+    <None Include="OnePassDupElimination.txt" />
+    <None Include="QUERY" />
+    <None Include="Reading\README_TinySQL" />
+    <None Include="Reading\TinySQL.pdf" />
+    <None Include="Reading\tiny_sql.compile" />
+    <None Include="Reading\tiny_sql.l" />
+    <None Include="Reading\tiny_sql.y" />
+    <None Include="SQL_TEST_SCRIPT.txt" />
+    <None Include="TestStatements.txt" />
+    <None Include="test_log" />
+    <None Include="TinySQLMemoryManager\README_MemoryManager" />
+    <None Include="TinySQLMemoryManager\test_err_1" />
+    <None Include="TinySQLMemoryManager\test_log_1" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
