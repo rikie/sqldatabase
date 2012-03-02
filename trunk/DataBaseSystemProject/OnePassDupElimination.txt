@@ -1,0 +1,15 @@
+Optimization laws involving Rules of duplicate eliminations
+Single Table:
+	DE(SEL(R)) = SEL(DE(R))
+
+1. Check the table size (in block)
+2. Table size should be less than equal to NUM_OF_BLOCKS_IN_MEMORY-1
+3. IF it is not less then apply two pass algo
+4. ELSE apply one pass algo
+   For one pass
+   While blocks of Relation are not read
+   Read a block at memory index 0
+      compare each tuple in block to memory(1 to n) block tuples
+	  if  tuple is present ignore it
+	  else output to a buffer and store in memory
+       

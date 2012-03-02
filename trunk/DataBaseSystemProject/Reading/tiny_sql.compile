@@ -1,0 +1,13 @@
+# Be sure to put all the StorageManager files in the same folder
+
+flex tiny_sql.l
+bison --verbose --debug -d tiny_sql.y -o tiny_sql.cc
+cc -c lex.yy.c -lfl -o lex.yy.o
+g++ -c StorageManager.cpp
+g++ StorageManager.o lex.yy.o tiny_sql.cc -o tiny_sql
+./tiny_sql
+
+# Enter the statement to test: CREATE TABLE course2 (sid INT, exam INT, grade STR20)
+# Each token should be printed on the screen
+# Also the information of the table should be printed on the screen
+# Press Ctrl+D to end the program

@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="FileManager">
+      <UniqueIdentifier>{58020b40-32ae-45af-b14d-150e9764095f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DBManagementSystem">
+      <UniqueIdentifier>{cb003ce3-c273-4cc4-8824-9cf0cb19d802}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataBaseParser">
+      <UniqueIdentifier>{5f880400-6766-40bb-817a-f062e5a53767}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LexicalAnalyser">
+      <UniqueIdentifier>{6a2c88d8-f6c4-4f69-898a-f4aa6fc6cc4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MemoryManager">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Readings">
+      <UniqueIdentifier>{b1ad8407-6f0f-47cc-b429-b11fabeb526b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MemoryManager\SupportingDocs">
+      <UniqueIdentifier>{b696ca34-ba03-454c-a9f1-3f300e612c34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SqlWorker">
+      <UniqueIdentifier>{1d7a1b8b-d9c2-4a2a-886c-38426f5d0ee6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LogicalQueryPlan">
+      <UniqueIdentifier>{5a3de3dc-d912-4b61-bf56-8c09de654bce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PhysicalQueryPlan">
+      <UniqueIdentifier>{ecf50e4d-5330-4b80-8d6f-8d6422a5b93c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{00ac3c1b-8e1c-4845-a5a5-6ef69192189b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FileManager.h">
+      <Filter>FileManager</Filter>
+    </ClInclude>
+    <ClInclude Include="DBParser.h">
+      <Filter>DataBaseParser</Filter>
+    </ClInclude>
+    <ClInclude Include="TokenType.h">
+      <Filter>LexicalAnalyser</Filter>
+    </ClInclude>
+    <ClInclude Include="Token.h">
+      <Filter>LexicalAnalyser</Filter>
+    </ClInclude>
+    <ClInclude Include="Keywords.h">
+      <Filter>LexicalAnalyser</Filter>
+    </ClInclude>
+    <ClInclude Include="LexAnalyzer.h">
+      <Filter>LexicalAnalyser</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>MemoryManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>MemoryManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Disk.h">
+      <Filter>MemoryManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Field.h">
+      <Filter>MemoryManager</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMemory.h">
+      <Filter>MemoryManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Relation.h">
+      <Filter>MemoryManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Schema.h">
+      <Filter>MemoryManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SchemaManager.h">
+      <Filter>MemoryManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Tuple.h">
+      <Filter>MemoryManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>DBManagementSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="SqlWorker.h">
+      <Filter>SqlWorker</Filter>
+    </ClInclude>
+    <ClInclude Include="LogicalQueryPlan.h">
+      <Filter>LogicalQueryPlan</Filter>
+    </ClInclude>
+    <ClInclude Include="LogicalQueryPlanGenerator.h">
+      <Filter>LogicalQueryPlan</Filter>
+    </ClInclude>
+    <ClInclude Include="Expression.h">
+      <Filter>LogicalQueryPlan</Filter>
+    </ClInclude>
+    <ClInclude Include="SearchCondition.h">
+      <Filter>LogicalQueryPlan</Filter>
+    </ClInclude>
+    <ClInclude Include="ComparisonPredicate.h">
+      <Filter>LogicalQueryPlan</Filter>
+    </ClInclude>
+    <ClInclude Include="Operation.h">
+      <Filter>LogicalQueryPlan</Filter>
+    </ClInclude>
+    <ClInclude Include="LogicalQueryPlanOptimizer.h">
+      <Filter>LogicalQueryPlan</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicalOperator.h">
+      <Filter>PhysicalQueryPlan</Filter>
+    </ClInclude>
+    <ClInclude Include="Untility.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="configDB.h">
+      <Filter>DBManagementSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="PUtility.h">
+      <Filter>PhysicalQueryPlan</Filter>
+    </ClInclude>
+    <ClInclude Include="FromQueryPlan.h">
+      <Filter>LogicalQueryPlan</Filter>
+    </ClInclude>
+    <ClInclude Include="ReturnRelation.h">
+      <Filter>LogicalQueryPlan</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FileManager.cpp">
+      <Filter>FileManager</Filter>
+    </ClCompile>
+    <ClCompile Include="DBManagerStart.cpp">
+      <Filter>DBManagementSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="DBParser.cpp">
+      <Filter>DataBaseParser</Filter>
+    </ClCompile>
+    <ClCompile Include="Token.cpp">
+      <Filter>LexicalAnalyser</Filter>
+    </ClCompile>
+    <ClCompile Include="LexAnalyzer.cpp">
+      <Filter>LexicalAnalyser</Filter>
+    </ClCompile>
+    <ClCompile Include="StorageManager.cpp">
+      <Filter>MemoryManager</Filter>
+    </ClCompile>
+    <ClCompile Include="TestStorageManager.cpp">
+      <Filter>MemoryManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SqlWorker.cpp">
+      <Filter>SqlWorker</Filter>
+    </ClCompile>
+    <ClCompile Include="LogicalQueryPlan.cpp">
+      <Filter>LogicalQueryPlan</Filter>
+    </ClCompile>
+    <ClCompile Include="LogicalQueryPlanGenerator.cpp">
+      <Filter>LogicalQueryPlan</Filter>
+    </ClCompile>
+    <ClCompile Include="Expression.cpp">
+      <Filter>LogicalQueryPlan</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchCondition.cpp">
+      <Filter>LogicalQueryPlan</Filter>
+    </ClCompile>
+    <ClCompile Include="ComparisonPredicate.cpp">
+      <Filter>LogicalQueryPlan</Filter>
+    </ClCompile>
+    <ClCompile Include="Operation.cpp">
+      <Filter>LogicalQueryPlan</Filter>
+    </ClCompile>
+    <ClCompile Include="LogicalQueryPlanOptimizer.cpp">
+      <Filter>LogicalQueryPlan</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicalOperator.cpp">
+      <Filter>PhysicalQueryPlan</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="PUtility.cpp">
+      <Filter>PhysicalQueryPlan</Filter>
+    </ClCompile>
+    <ClCompile Include="FromQueryPlan.cpp">
+      <Filter>LogicalQueryPlan</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="TinySQLMemoryManager\README_MemoryManager">
+      <Filter>MemoryManager\SupportingDocs</Filter>
+    </None>
+    <None Include="Reading\README_TinySQL">
+      <Filter>Readings</Filter>
+    </None>
+    <None Include="Reading\tiny_sql.compile">
+      <Filter>Readings</Filter>
+    </None>
+    <None Include="Reading\tiny_sql.l">
+      <Filter>Readings</Filter>
+    </None>
+    <None Include="Reading\tiny_sql.y">
+      <Filter>Readings</Filter>
+    </None>
+    <None Include="Reading\TinySQL.pdf">
+      <Filter>Readings</Filter>
+    </None>
+    <None Include="QUERY">
+      <Filter>Readings</Filter>
+    </None>
+    <None Include="SQL_TEST_SCRIPT.txt">
+      <Filter>Readings</Filter>
+    </None>
+    <None Include="TinySQLMemoryManager\test_err_1">
+      <Filter>MemoryManager\SupportingDocs</Filter>
+    </None>
+    <None Include="TinySQLMemoryManager\test_log_1">
+      <Filter>MemoryManager\SupportingDocs</Filter>
+    </None>
+    <None Include="test_log">
+      <Filter>Readings</Filter>
+    </None>
+    <None Include="1000TupleInsert.txt">
+      <Filter>Readings</Filter>
+    </None>
+    <None Include="DB_LOG.txt">
+      <Filter>Readings</Filter>
+    </None>
+    <None Include="OnePassDupElimination.txt">
+      <Filter>Readings</Filter>
+    </None>
+    <None Include="Notes.txt">
+      <Filter>Readings</Filter>
+    </None>
+    <None Include="TestStatements.txt">
+      <Filter>Readings</Filter>
+    </None>
+  </ItemGroup>
+</Project>
